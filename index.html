@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comfy House</title>
+    <link rel='stylesheet' href='main.css' />
+    <script src="https://kit.fontawesome.com/525c3a3410.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="navbar-center">
+                <span class="nav-icon">
+                    <i class="fas fa-bars"></i>
+                </span>
+                <img src="./images/logo.svg" alt="store logo">
+                <div class="cart-btn">
+                    <span class="nav-icon">
+                        <i class="fas fa-cart-plus"></i>
+                    </span>
+                    <div class="cart-items">0</div>
+                </div>
+            </div>
+        </nav>
+        <!-- End of Navbar -->
+        <!-- Hero -->
+        <header class="hero">
+            <div class="banner">
+                <h1 class="banner-title">furniture collection</h1>
+                <button class="banner-btn">shop now</button>
+            </div>
+        </header>
+        <!-- End of Hero -->
+        <!-- Products -->
+        <section class="products">
+            <div class="section-title">
+                <h2>Our Products</h2>
+            </div>
+            <article class="products-center" id="products-center">
+                <!-- single product -->
+                <div class="img-container">
+                    <img src="./images/product-1.jpeg" alt="product" class="product-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fa fas-shopping-cart"></i>
+                        add to bag
+                    </button>
+                    <h3>queen bed</h3>
+                    <h4>$156</h4>
+                </div>
+                <!-- end of single product-->
+            </article>
+        </section>
+        <!-- End of Products-->
+        <!-- Cart -->
+        <div class="cart-overlay">
+            <div class="cart">
+                <span class="close-cart">
+                    <i class="fa fa-window-close"></i>
+                </span>
+                <h2>Your cart</h2>
+                <div class="cart-content">
+                    <!-- Cart item -->
+                    <!-- End of Cart item -->
+                </div>
+                <div class="cart-footer">
+                    <h3>Your total : $<span class="cart-total">0</span></h3>
+                    <button class="clear-cart banner-btn">Clear cart</button>
+                </div>
+            </div>
+        </div>
+        <!-- End of Cart -->
+        <script src="app.js"></script>
+    </body>
+</html>
